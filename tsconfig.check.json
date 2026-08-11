@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["es2023"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "noUncheckedIndexedAccess": false,
+    "baseUrl": ".",
+    "paths": {
+      "@earendil-works/pi-ai": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-ai@0.83.0_@modelcontextprotocol+sdk@1.15.0_ws@8.18.3_zod@3.25.73/node_modules/@earendil-works/pi-ai/dist/index.d.ts"],
+      "@earendil-works/pi-ai/*": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-ai@0.83.0_@modelcontextprotocol+sdk@1.15.0_ws@8.18.3_zod@3.25.73/node_modules/@earendil-works/pi-ai/dist/*"],
+      "@earendil-works/pi-agent-core": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-agent-core@0.83.0_@modelcontextprotocol+sdk@1.15.0_ws@8.18.3_zod@3.25.73/node_modules/@earendil-works/pi-agent-core/dist/index.d.ts"],
+      "@earendil-works/pi-agent-core/*": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-agent-core@0.83.0_@modelcontextprotocol+sdk@1.15.0_ws@8.18.3_zod@3.25.73/node_modules/@earendil-works/pi-agent-core/dist/*"],
+      "@earendil-works/pi-coding-agent": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-coding-agent@0.83.0_@modelcontextprotocol+sdk@1.15.0_ws@8.18.3_zod@3.25.73/node_modules/@earendil-works/pi-coding-agent/dist/index.d.ts"],
+      "@earendil-works/pi-coding-agent/*": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-coding-agent@0.83.0_@modelcontextprotocol+sdk@1.15.0_ws@8.18.3_zod@3.25.73/node_modules/@earendil-works/pi-coding-agent/dist/*"],
+      "@earendil-works/pi-tui": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-tui@0.83.0/node_modules/@earendil-works/pi-tui/dist/index.d.ts"],
+      "@earendil-works/pi-tui/*": ["/Users/ilyabelyaev/Library/pnpm/global/5/.pnpm/@earendil-works+pi-tui@0.83.0/node_modules/@earendil-works/pi-tui/dist/*"]
+    },
+    "types": []
+  },
+  "include": ["**/*.ts", "**/*.test.ts"],
+  "exclude": ["node_modules"]
+}
