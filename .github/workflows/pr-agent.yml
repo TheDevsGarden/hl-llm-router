@@ -22,6 +22,6 @@ jobs:
           config.fallback_models: '["openai/deepseek-v4-pro"]'
           config.custom_model_max_tokens: "1048576"
           github_action_config.auto_review: "true"
-          github_action_config.auto_describe: "false"
+          github_action_config.auto_describe: "true"
           github_action_config.auto_improve: "true"
           github_action_config.pr_actions: '["opened","reopened","ready_for_review","synchronize"]'
